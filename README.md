@@ -1,2 +1,2 @@
 # Skia-Delphi
-Sample Using Skia for Delphi With DF view
+Sample Using Skia for Delphi With PDF view
