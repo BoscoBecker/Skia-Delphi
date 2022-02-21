@@ -1,0 +1,17 @@
+program Project2;
+
+uses
+  Vcl.Forms,
+  Unit2 in 'Unit2.pas' {Main},
+  Vcl.Themes,
+  Vcl.Styles;
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Windows11 Modern Light');
+  Application.CreateForm(TMain, Main);
+  Application.Run;
+end.
